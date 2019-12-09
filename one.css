@@ -1,0 +1,51 @@
+.title{
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+}
+.title h1{
+	margin-left: 77px;
+	margin-top:25px;
+}
+
+body{
+	margin:0;
+}
+.first{
+   background-color: lightblue;
+   height:90px;
+   display:flex;
+}
+
+.menu ul li{
+	position: relative;
+	display: inline;
+	float: left;
+}
+.menu ul li a {
+	display: block;
+	width: 74px;
+	margin-left: 5px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #a9a2a2;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+}
+
+.menu ul li a:hover { 
+	color: #f00;
+}
+.menu ul li ul li a{
+	font-weight: 500;
+	width: 140px; 
+	height: 28px;
+	line-height: 28px;
+	margin: 0 10px;
+	font-size: 12px;
+	text-align: left;
+	background: none;
+	color: #a9a2a2;
+	border-bottom: 1px solid #151515;
+}
+
