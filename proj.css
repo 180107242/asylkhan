@@ -1,0 +1,48 @@
+body{
+	margin:0;
+}
+.first{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: lightblue;
+	height:110px;
+}
+.title{
+	font-size:36px;
+	color: rgba(225,225,225,.1);
+	background-image: url(rainbow.jpg);
+	background-repeat:repeat-x;
+	-webkit-background-clip:text;
+	animation: animate 15s linear infinite;
+}
+  @keyframes animate {
+	0%{
+		background-position: left 0px top 10px;
+	}
+	40%{
+		background-position: left 800px top 10px;
+	}
+}
+.title h1{
+	margin-left: 100px;
+	margin-top:-25px;
+	font-size: 36px;
+	font-family:arial;
+}
+.ma{
+	margin-top:36px;
+	margin-left:325px;
+	font-size: 33px;
+}
+.title img{
+	position: relative;
+	 height:60px;
+	 width:70px;
+	 left:35px;
+	 top:25px;
+}
+.ma a{
+	text-decoration: none;
+	color:black;
+}
