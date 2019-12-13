@@ -4,9 +4,8 @@ body{
 .first{
 	display:flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	background-color: lightblue;
-	height:110px;
+	background-color: rgba(0, 1, 1, 0.5);;
+	height:111px;
 }
 .title{
 	font-size:36px;
@@ -24,16 +23,22 @@ body{
 		background-position: left 800px top 10px;
 	}
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: yellow;
+  }
+}
 .title h1{
 	margin-left: 100px;
 	margin-top:-25px;
-	font-size: 36px;
+	font-size: 40px;
 	font-family:arial;
 }
 .ma{
 	margin-top:36px;
-	margin-left:325px;
-	font-size: 33px;
+	margin-left:285px;
+	font-size: 36px;
+	height:110px;
 }
 .title img{
 	position: relative;
@@ -45,4 +50,55 @@ body{
 .ma a{
 	text-decoration: none;
 	color:black;
+	padding-bottom: 34px;
+	padding-top: 40px;
+	padding-right: 25px;
+	padding-left: 25px;
 }
+.a a:hover{
+	background-color: rgb(136, 195, 223);
+	color:white;
+}
+.b a:hover{
+	background-color: rgb(218, 141, 133);
+	color:white;
+}
+.c a:hover{
+	background-color: rgb(133, 163, 204);
+	color:white;
+}
+.d a:hover{
+	background-color: rgb(122, 193, 185);
+	color:white;
+}
+.e a:hover{
+	background-color: rgb(223, 186, 112);
+	color:white;
+}
+body{
+	background-color: rgb(136, 195, 223);
+}
+.abc{
+	margin-top:50px;
+}
+.abc img{
+	width:375px;
+	height:300px;
+	margin-top: 0px;
+}
+.foot{
+	background-color: black;
+	opacity:.8;
+	height:200px;
+	color:white;
+	text-align:center;
+}
+.bas{
+	text-align: center;
+	font-size: 39px;
+	margin-top: 50px;
+}
+.fo{
+	margin-top: 190px;
+}
+
